@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    
+}
+
+.header {
+    background-image: url(../image/подвал.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.nav-item {
+    color: rgb(93, 93, 93);
+    text-decoration: none;
+    margin-right: 80px;
+    font-size: 32px;
+}
+
+.nav-item:hover {
+    color:rgba(92, 5, 5, 0.873);
+}
+
+.nav-item:last-child {
+    margin-right: 0;
+}
+
+
+.nav {
+    display: flex;
+    justify-content: center;
+    padding-top: 14px;
+}
+
+.title {
+    color:rgb(50, 0, 0);
+    font-size: 80px;
+    width: 1300px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 15px;
+}
+ 
+.nav_logo {
+    background: url(../image/logo.jpg) no-repeat center center;
+    background-size: 100%;
+    width: 50px;
+    height: 63px;
+}
+
+.subtitle {
+    color: rgba(233, 233, 233, 0.934);
+    font-size:56px;
+    font-weight: 900px;
+    text-align: center; 
+    line-height: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 514px;
+    margin-top: 30px;
+}
+
+.input {
+    width: 500px ;
+    height: 35px  ;
+    font-size: 24px ;
+    outline: none;
+    padding-left: 15px;
+    border: 4px rgb(50, 0, 0) solid;
+    border-radius: 20px;
+}
+
+.forma {
+    text-align: center ;
+    margin-top: 20px;
+}
+
+.button {
+    text-align: center;
+}
+
+#myButton {
+    border: none;
+    border-radius: 25px;
+    width: 260px;
+    height: 50px;
+    background-color: rgb(50, 0, 0) ;
+    color: aliceblue;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#myBytton:hover {
+    background-color: rgba(0, 65, 39, 0.888);
+}
+
+#demo img {
+    margin-top: none;
+    width: 14%;
+}
