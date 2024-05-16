@@ -6,4 +6,3 @@ if (!$link) {
 echo 'Good!';
 mysqli_close($link);
 ?>
-

@@ -40,6 +40,15 @@ body {
     margin-left: auto;
     margin-top: 15px;
 }
+.title1 {
+    color:rgb(50, 0, 0);
+    font-size: 50px;
+    width: 1350px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 15px;
+}
  
 .nav_logo {
     background: url(../image/logo.jpg) no-repeat center center;
@@ -50,18 +59,21 @@ body {
 
 .subtitle {
     color: rgba(233, 233, 233, 0.934);
-    font-size:56px;
+    font-size:30px;
     font-weight: 900px;
     text-align: center; 
     line-height: 50px;
     margin-right: auto;
     margin-left: auto;
     width: 514px;
-    margin-top: 30px;
+    margin-top: 15px;
 }
+
+
+
 .subtitle1 {
     color: rgba(233, 233, 233, 0.934);
-    font-size:56px;
+    font-size:29px;
     font-weight: 900px;
     text-align: center; 
     line-height: 50px;
@@ -70,21 +82,35 @@ body {
     width: 514px;
     margin-top: 30px;
 }
+
+
 .input {
-    width: 500px ;
-    height: 35px  ;
-    font-size: 24px ;
+    width: 600px ;
+    height: 45px  ;
+    font-size: 30px ;
     outline: none;
     padding-left: 15px;
     border: 4px rgb(50, 0, 0) solid;
-    border-radius: 20px;
+    border-radius: 25px;
 }
 
+.input1 {
+    width: 600px ;
+    height: 45px  ;
+    font-size: 30px ;
+    outline: none;
+    padding-left: 15px;
+    border: 4px rgb(50, 0, 0) solid;
+    border-radius: 15px;
+}
 .forma {
     text-align: center ;
-    margin-top: 20px;
+    margin-top: 15px;
 }
-
+.forma1 {
+    text-align: center ;
+    margin-top: -4px;
+}
 .button {
     text-align: center;
 }
@@ -99,6 +125,26 @@ body {
     font-weight: bold;
     margin-top: 10px;
 }
+.myButton {
+    border: none;
+    border-radius: 25px;
+    width: 260px;
+    height: 50px;
+    background-color: rgb(50, 0, 0) ;
+    color: aliceblue;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.myButton1 {
+    border: none;
+    border-radius: 25px;
+    width: 260px;
+    height: 50px;
+    font-size: 25px;
+    background-color: rgb(50, 0, 0) ;
+    color: aliceblue;
+    font-weight: bold;
+}
 
 #myBytton:hover {
     background-color: rgba(0, 65, 39, 0.888);
@@ -106,5 +152,6 @@ body {
 
 #demo img {
     margin-top: none;
-    width: 14%;
+    width: 5%;
 }
+
